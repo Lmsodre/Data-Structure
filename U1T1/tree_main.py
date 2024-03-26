@@ -152,20 +152,6 @@ class AVLNode(Node):
         # Calculate and update the imbalance factor for this node
         self.imbalance = left_height - right_height
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 class AVLTree(BST):
     """
     Represents an AVL (Adelson-Velsky and Landis) tree, a self-balancing binary search tree.
